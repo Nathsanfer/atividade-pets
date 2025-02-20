@@ -8,7 +8,6 @@
 }
 
 .header {
-    position: fixed;
     width: 100%;
     height: 3.5rem;
     background-color: #FFD300;
@@ -107,7 +106,57 @@
 }
 
 .servicos {
-    background-color: rgb(245, 244, 240);
+    background-color: #faebb0;
     width: 100%;
-    height: 40rem;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.container-cards {
+    display: flex;
+    gap: 3rem;
+}
+
+.produtos {
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.galeria {
+    width: 100%;
+    height: 48rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: #faebb0;
+}
+
+.container-fotos {
+    width: 100%;
+    height: 80%;
+}
+
+.container1, .container2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+img {
+    width: 22%;
+    height: 90%;
 }
